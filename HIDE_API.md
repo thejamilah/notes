@@ -49,4 +49,5 @@ config.js
 10. git add ., and git st again. Make sure the config.js file didn't get added. If everything looks good, you're ready 
 to commit and push.
 
-Credit: [Amy Conchie](https://gist.github.com/derzorngottes)
+#### Instructions Credit
+Direct Credit To: [Amy Conchie](https://gist.github.com/derzorngottes)
