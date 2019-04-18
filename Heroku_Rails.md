@@ -1,13 +1,13 @@
-### Deploying to Heroku
+# Deploying to Heroku
 
 
-# Assumed before deploying
+## Assumed before deploying
 - `rails new app_name --database=postgresql`
 - `rails db:setup` makes our db for postgresql
 - `rails db:migrate`
 - nice to have [Postico](https://eggerapps.at/postico/) [Postgresql GUI](https://postgresapp.com/downloads.html) for viewing your db
   
-# Deploying to heroku
+## Deploying to heroku
 - Install heroku CLI [CLI ](https://devcenter.heroku.com/articles/heroku-cli)
 - Run `heroku login` in your terminal.
 - It will open a browser window and ask you to signin to your account if you dont have one make one.
@@ -21,4 +21,3 @@
 - In terminal run `git push heroku master`
 - In terminal run `heroku run rake db:migrate`
 - In terminal run `heroku open`
-
